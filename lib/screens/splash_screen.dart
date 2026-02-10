@@ -40,8 +40,7 @@ class _SplashScreenState extends State<SplashScreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Image.network(
-              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcYaEva1dCFtniMzDNSweKIGCseBjN2MxBYw&s',
-              height: 120,
+              'https://res.cloudinary.com/shipit-cdn/images/c_scale,w_448,h_299,dpr_2/f_auto,q_auto/v1733410609/wordpress/new-york/new-york.jpg?_i=AA',
             ),
 
             const SizedBox(height: 20),
