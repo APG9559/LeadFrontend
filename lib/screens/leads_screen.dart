@@ -68,6 +68,14 @@ class _LeadsScreenState extends State<LeadsScreen> {
               : SingleChildScrollView(
                 scrollDirection: Axis.horizontal,
                 child: DataTable(
+                  border: TableBorder(
+                    top: BorderSide(color: Colors.black),
+                    bottom: BorderSide(color: Colors.black),
+                    left: BorderSide(color: Colors.black),
+                    right: BorderSide(color: Colors.black),
+                    horizontalInside: BorderSide(color: Colors.black),
+                    verticalInside: BorderSide(color: Colors.black),
+                  ),
                   columns: const [
                     DataColumn(label: Text("First Name")),
                     DataColumn(label: Text("Last Name")),
